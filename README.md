@@ -15,3 +15,9 @@ stichometry
 ## class Sticho (methods)
 
 #### Data filtering
+
+**`reduce_features`** `:`      ``'cs', 'de', 'es' ...``  
+```
+   filters:     conditions to filter features (format accepted by pandas .query method)
+                default: None
+```
