@@ -29,3 +29,9 @@ Filter datasets (rows) according to specified conditions.
                    default: True
 
 </pre>
+
+#### Data filtering
+<pre>
+<b>zscores()</b>
+Normalize data to z-scores across datasets.
+</pre>
