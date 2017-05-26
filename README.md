@@ -17,10 +17,13 @@
                default: None    
   
 <b>reduce_sets(filters, n_min, remove_singles)</b>
-  filters:     conditions to filter datasets (format accepted by pandas .query method)
-               default: None
-  n_min:       <i>int</i>
-               minimum number of all features to keep dataset
-               default: 0
+  filters:  conditions to filter datasets (format accepted by pandas .query method)
+            default: None
+  n_min:  <i>int</i>
+          minimum number of all features to keep dataset
+                  default: 0
+  remove_singles:  <i>int</i>
+                   minimum number of all features to keep dataset
+                   default: 0
 
 </pre>
