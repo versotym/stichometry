@@ -1,6 +1,6 @@
 stichometry
 
-## class Sticho
+# class Sticho
 
 ### Parameters:
 
