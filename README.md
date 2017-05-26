@@ -1,8 +1,8 @@
 stichometry
 
-### class Sticho
+## class Sticho
 
-##### Parameters:
+### Parameters:
 
 
 **`lang`** `:`      ``'cs', 'de', 'es' ...``  
