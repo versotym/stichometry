@@ -13,10 +13,19 @@
 #### Data filtering
 <pre>
 <b>reduce_features(filters)</b>
-Filter features (columns) which should be used for attribution (only when method == 'sticho'). E.g. drop all statistics on rhyme, or leave on stress profile.
+Only for method == 'sticho'
+Filter features (columns) which should be used for attribution. E.g. drop all statistics on rhyme, or leave on stress profile.
   filters:     conditions to filter features (format accepted by pandas .query method)
                default: None    
-  
+
+<b>mfi(n)</b>
+Only for method != 'sticho'
+Select how many most frequented items (words, lemmata, n-grams) will be analyzed.
+  n:           <i>int</i>
+               number of mfi
+               default: 500    
+
+
 <b>reduce_sets(filters, n_min, remove_singles)</b>
 Filter datasets (rows) according to specified conditions.
   filters:         conditions to filter datasets (format accepted by pandas .query method)
