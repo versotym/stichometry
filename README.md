@@ -3,9 +3,7 @@ stichometry
 ## class Sticho (parameters)
 
 **`lang`** `:`      ``'cs', 'de', 'es' ...``  
-```
-   Language to process (subfolder in "pickle" folder)  
-```
+Language to process (subfolder in "pickle" folder)  
 
 **`method`** `:`     ``'sticho', 'word', 'lemma', '3gram_t' ...``  
 
@@ -16,7 +14,8 @@ stichometry
 
 #### Data filtering
 
-**`reduce_features`**  ```:      'cs', 'de', 'es' ...  
+**`reduce_features`**  
+```
    filters:     conditions to filter features (format accepted by pandas .query method)
                 default: None
 ```
