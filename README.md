@@ -8,9 +8,9 @@ stichometry
 ```
 
 **`method`** `:`     ``'sticho', 'word', 'lemma', '3gram_t' ...``  
-```
+
    Which data to use for attribution (file in pickle > lang folder)
-```
+
 
 ## class Sticho (methods)
 
