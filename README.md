@@ -14,7 +14,8 @@
 <pre>
 <b>reduce_features(filters)</b>
 Only for method == 'sticho'
-Filter features (columns) which should be used for attribution. E.g. drop all statistics on rhyme, or leave on stress profile.
+Filter features (columns) which should be used for attribution. 
+E.g. drop all statistics on rhyme, or leave on stress profile.
   filters:     conditions to filter features (format accepted by pandas .query method)
                default: None    
 
