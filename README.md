@@ -11,7 +11,7 @@
 
 ## Methods
 #### Data filtering
-<pre>  
+<pre>
 <b>reduce_features(filters)</b>
   filters:     conditions to filter features (format accepted by pandas .query method)
                default: None  
