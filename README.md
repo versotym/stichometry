@@ -40,7 +40,7 @@ Filter datasets (rows) according to specified conditions.
 
 </pre>
 
-#### Data filtering
+#### Normalization
 <pre>
 <b>zscores()</b>
 Normalize data to z-scores across datasets.
