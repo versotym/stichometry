@@ -1,9 +1,6 @@
 stichometry
 
-# class Sticho
-
-### Parameters:
-
+## class Sticho (parameters)
 
 **`lang`** `:`      ``'cs', 'de', 'es' ...``  
 ```
@@ -15,4 +12,5 @@ stichometry
    Which data to use for attribution (file in pickle > lang folder)
 ```
 
+## class Sticho (methods)
 
