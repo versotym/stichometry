@@ -16,6 +16,7 @@
   filters:     conditions to filter features (format accepted by pandas .query method)
                default: None  
   
+  
 <b>reduce_sets(filters, n_min, remove_singles)</b>
   filters:     conditions to filter datasets (format accepted by pandas .query method)
                default: None
