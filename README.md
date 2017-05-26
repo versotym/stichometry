@@ -13,8 +13,8 @@ Which data to use for attribution (file in pickle > lang folder)
 
 #### Data filtering
 
-**`reduce_features`**  
-```
+<pre><b>reduce_features,</b>
+
 filters:     conditions to filter features (format accepted by pandas .query method)
              default: None
-```
+</pre>
