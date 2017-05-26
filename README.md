@@ -14,3 +14,4 @@ stichometry
 
 ## class Sticho (methods)
 
+#### Data filtering
