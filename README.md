@@ -6,8 +6,7 @@ stichometry
 Language to process (subfolder in "pickle" folder)  
 
 **`method`** `:`     ``'sticho', 'word', 'lemma', '3gram_t' ...``  
-
-   Which data to use for attribution (file in pickle > lang folder)
+Which data to use for attribution (file in pickle > lang folder)
 
 
 ## class Sticho (methods)
@@ -15,7 +14,6 @@ Language to process (subfolder in "pickle" folder)
 #### Data filtering
 
 **`reduce_features`**  
-```
-   filters:     conditions to filter features (format accepted by pandas .query method)
+```filters:     conditions to filter features (format accepted by pandas .query method)
                 default: None
 ```
