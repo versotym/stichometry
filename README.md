@@ -26,7 +26,6 @@ Select how many most frequented items (words, lemmata, n-grams) will be analyzed
                number of mfi
                default: 500    
 
-
 <b>reduce_sets(filters, n_min, remove_singles)</b>
 Filter datasets (rows) according to specified conditions.
   filters:         conditions to filter datasets (format accepted by pandas .query method)
@@ -44,4 +43,23 @@ Filter datasets (rows) according to specified conditions.
 <pre>
 <b>zscores()</b>
 Normalize data to z-scores across datasets.
+</pre>
+
+#### Attribution
+<pre>
+<b>nearest_neighbour()</b>
+Classification by nearest neighbour (various distance metrics)
+
+<b>svm(multiclass, **kwargs)</b>
+Classification by support vector machine
+  multiclass:      <i>boolean</i>
+                   whether to perform multiclass or binary classification
+                   when 'True' each dataset is assigned to one author
+                   when 'False' on-vs.-rest. classifier is trained for every author resulting in:
+                      (a) assigning author to the dataset if precisely one classifier gives other decision than 'rest'
+                      (b) "I don't know" answer in other cases
+                   default: True
+  **kwargs:        Parameters for sklearn.svm.SVC (e.g.kernel, gamma...)
+
+
 </pre>
