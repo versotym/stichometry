@@ -59,7 +59,15 @@ Classification by support vector machine
                       (a) assigning author to the dataset if precisely one classifier gives other decision than 'rest'
                       (b) "I don't know" answer in other cases
                    default: True
-  **kwargs:        Parameters for sklearn.svm.SVC (e.g.kernel, gamma...)
-
-
+  **kwargs:        Parameters for sklearn.svm.SVC (e.g. kernel, gamma...)
+  
+<b>random_forest(multiclass, **kwargs)</b>Classification by random forest
+  multiclass:      <i>boolean</i>
+                   whether to perform multiclass or binary classification
+                   when 'True' each dataset is assigned to one author
+                   when 'False' on-vs.-rest. classifier is trained for every author resulting in:
+                      (a) assigning author to the dataset if precisely one classifier gives other decision than 'rest'
+                      (b) "I don't know" answer in other cases
+                   default: True
+  **kwargs:        Parameters for sklearn.ensemble.randomForestClassifier (e.g. n_estimators, class_weight...)
 </pre>
