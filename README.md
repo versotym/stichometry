@@ -72,3 +72,19 @@ Classification by random forest
                    default: True
   **kwargs:        Parameters for sklearn.ensemble.randomForestClassifier (e.g. n_estimators, class_weight...)
 </pre>
+
+#### Evaluation
+<pre>
+<b>evaluate()</b>
+Print evaluation of particulars methods that were applied
+
+<b>dendrograms()</b>
+Plot dendrograms (only if nearest_neighbour has been applied)
+
+<b>complete_results(pickle, filename)</b>
+Returns dictionary with complete results
+  pickle:          <i>boolean</i>
+                   whether to pickle dict into a file (stored in 'pickle' folder)
+                   default: True
+  filename:        specifies the name of a pickled file
+                   default: method name (e.g. sticho, word...)
