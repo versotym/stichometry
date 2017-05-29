@@ -72,7 +72,8 @@ Classification by random forest
                           gives other decision than 'rest'
                       (b) "I don't know" answer in other cases
                    default: True
-  **kwargs:        Parameters for sklearn.ensemble.randomForestClassifier (e.g. n_estimators, class_weight...)
+  **kwargs:        Parameters for sklearn.ensemble.randomForestClassifier 
+                   (e.g. n_estimators, class_weight...)
 </pre>
 
 #### Evaluation
