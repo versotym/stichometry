@@ -61,7 +61,8 @@ Classification by support vector machine
                    default: True
   **kwargs:        Parameters for sklearn.svm.SVC (e.g. kernel, gamma...)
   
-<b>random_forest(multiclass, **kwargs)</b>Classification by random forest
+<b>random_forest(multiclass, **kwargs)</b>  
+Classification by random forest
   multiclass:      <i>boolean</i>
                    whether to perform multiclass or binary classification
                    when 'True' each dataset is assigned to one author
